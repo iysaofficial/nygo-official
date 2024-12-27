@@ -45,9 +45,16 @@ const NavbarComp = () =>{
                     <li className='menu-item'><a href="#about-section">Tentang</a></li>
                     {/* <li className='menu-item'><a href="/#category-main-section">Category</a></li> */}
                     {/* <li className='menu-item'><a href="#">FAQ</a></li> */}
-                    <li className='menu-item'><a href="#main-category-section">Kategori</a></li>
-                    <li className='menu-item'><a href="https://drive.google.com/file/d/1zdAtdEOzqNWfi1F6nPTv8jwr-0fP1c_Q/view?usp=sharing" target='_blank'>Buku Panduan</a></li>/
-                    <li className='menu-item'><a href="#contact-section">Kontak</a></li>
+                    {/* <li className='menu-item'><a href="#main-category-section">Kategori</a></li> */}
+
+                    <li className='menu-item'><a href="https://drive.google.com/file/d/1zdAtdEOzqNWfi1F6nPTv8jwr-0fP1c_Q/view?usp=sharing" target='_blank'>Buku Panduan</a></li>
+                    <li className='menu-item'>
+                        <a className='sub-btn' href="#">Daftar Pemenang <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="https://drive.google.com/file/d/1u32Uewe64l5nvg_SuDK_RTYeCOxQ8khe/view?usp=sharing" target='_blank'>NYGO 2024</a></li>
+                        </ul>
+                    </li>
+                    {/* <li className='menu-item'><a href="#contact-section">Kontak</a></li>*/}
                     {/* <li className='menu-item'><a href="https://drive.google.com/drive/folders/1l_bCazIZmdtOSUjAuBAgXTg7YEBTixPY" target='_blank'>Certificate Supervisor</a></li> */}
 
                     {/* <li className='menu-item'>
