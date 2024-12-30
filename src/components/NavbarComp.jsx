@@ -49,9 +49,38 @@ const NavbarComp = () =>{
 
                     <li className='menu-item'><a href="https://drive.google.com/file/d/1zdAtdEOzqNWfi1F6nPTv8jwr-0fP1c_Q/view?usp=sharing" target='_blank'>Buku Panduan</a></li>
                     <li className='menu-item'>
+                        <a className='sub-btn' href="#">Liputan Media <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="https://drive.google.com/file/d/1NdOFy48a5igVT5h2umhzqrDZujjNRDW1/view?usp=sharing" target='_blank'>Press release 2024</a></li>
+                        </ul>
+                    </li>
+                    <li className='menu-item'>
                         <a className='sub-btn' href="#">Daftar Pemenang <i className='fas fa-angle-down'></i></a>
                         <ul className='sub-menu'>
-                            <li className='sub-item'><a href="https://drive.google.com/file/d/1u32Uewe64l5nvg_SuDK_RTYeCOxQ8khe/view?usp=sharing" target='_blank'>NYGO 2024</a></li>
+                            <li className='sub-item more'>
+                                <a className='more-btn' href="#">NYGO 2024 <i className='fas fa-angle-right'></i></a>
+                                <ul className='more-menu'>
+                                    <li className='more-item'><a href="https://drive.google.com/file/d/1u32Uewe64l5nvg_SuDK_RTYeCOxQ8khe/view?usp=sharing" target='_blank'>NYGO Online 2024</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    {/* <li className='menu-item'>
+                        <a className='sub-btn' href="#">Kurasi <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="#" target='_blank'>Kurasi 2024</a></li>
+                        </ul>
+                    </li> */}
+                    <li className='menu-item'>
+                        <a className='sub-btn' href="#">Sertifikat Supervisor <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="https://drive.google.com/drive/folders/1xeLcrl5pXIHnLAVfUH4ZHXGltyfV8lWc?usp=sharing" target='_blank'>Sertifikat Supervisor 2024</a></li>
+                        </ul>
+                    </li>
+                    <li className='menu-item'>
+                        <a className='sub-btn' href="#">Galeri <i className='fas fa-angle-down'></i></a>
+                        <ul className='sub-menu'>
+                            <li className='sub-item'><a href="https://drive.google.com/drive/folders/1JROGpOT_Ow7kHwwfcr7tOs8eR0RdgDW0?usp=sharing " target='_blank'>2024</a></li>
                         </ul>
                     </li>
                     {/* <li className='menu-item'><a href="#contact-section">Kontak</a></li>*/}
