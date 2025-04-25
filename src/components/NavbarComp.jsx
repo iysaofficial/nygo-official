@@ -48,29 +48,29 @@ const NavbarComp = () =>{
                     {/* <li className='menu-item'><a href="#main-category-section">Kategori</a></li> */}
 
                     <li className='menu-item'><a href="https://drive.google.com/file/d/1I90wKpk7hudf-dzuK7HDvzzoRraZwQFe/view?usp=sharing" target='_blank'>Buku Panduan</a></li>
-                    <li className='menu-item'>
+                    {/* <li className='menu-item'>
                         <a className='sub-btn' href="#">Liputan Media <i className='fas fa-angle-down'></i></a>
                         <ul className='sub-menu'>
                             <li className='sub-item'><a href="https://drive.google.com/file/d/1NdOFy48a5igVT5h2umhzqrDZujjNRDW1/view?usp=sharing" target='_blank'>Press release 2024</a></li>
                         </ul>
-                    </li>
+                    </li> */}
                     <li className='menu-item'>
-                        <a className='sub-btn' href="#">Daftar Pemenang <i className='fas fa-angle-down'></i></a>
-                        <ul className='sub-menu'>
+                        <a className='sub-btn' href="/ListOfWinnerAllPage">Daftar Pemenang</a>
+                        {/* <ul className='sub-menu'>
                             <li className='sub-item more'>
                                 <a className='more-btn' href="#">NYGO 2024 <i className='fas fa-angle-right'></i></a>
                                 <ul className='more-menu'>
                                     <li className='more-item'><a href="https://drive.google.com/file/d/1u32Uewe64l5nvg_SuDK_RTYeCOxQ8khe/view?usp=sharing" target='_blank'>NYGO Online 2024</a></li>
                                 </ul>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
-                    <li className='menu-item'>
+                    {/* <li className='menu-item'>
                         <a className='sub-btn' href="#">Kurasi <i className='fas fa-angle-down'></i></a>
                         <ul className='sub-menu'>
                             <li className='sub-item'><a href="https://drive.google.com/drive/folders/1BXwAyRnqGS6Pv1jmCezaiRScJEEBj2lf?usp=sharing" target='_blank'>Kurasi 2024</a></li>
                         </ul>
-                    </li>
+                    </li> */}
                     {/* <li className='menu-item'>
                         <a className='sub-btn' href="#">Kurasi <i className='fas fa-angle-down'></i></a>
                         <ul className='sub-menu'>

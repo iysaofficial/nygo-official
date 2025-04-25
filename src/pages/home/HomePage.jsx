@@ -7,6 +7,8 @@ import AboutComp from "../../components/home/AboutComp"
 import NewsletterComp from "../../components/home/NewsletterComp"
 import SocialMediaComp from "../../components/home/SocialMediaComp"
 import HeroComp from "../../components/home/HeroComp"
+import NewsComp from '../../components/home/NewsComp'
+
 
 const HomePage = () => {
     return(
@@ -20,6 +22,7 @@ const HomePage = () => {
         <AfterEventComp></AfterEventComp>
         <ContactComp></ContactComp>
         <SocialMediaComp></SocialMediaComp>
+        {/* <NewsComp></NewsComp> */}
         <NewsletterComp></NewsletterComp>
         <LogoComp></LogoComp>  
         </>
