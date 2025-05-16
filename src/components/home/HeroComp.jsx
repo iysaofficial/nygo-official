@@ -8,9 +8,9 @@ const HeroComp = () =>{
             <div className="hero-content">
                 <h1>NYGO</h1>
                 <h3>National Youth Geography Olympiad</h3>
-                {/* <p>Pendaftaran National Youth Geography Olympiad telah dibuka! <br /> Bergabunglah 
+                <p>Pendaftaran National Youth Geography Olympiad telah dibuka! <br /> Bergabunglah 
                     dengan acara bergengsi ini dan dapatkan pengalaman yang tak terlupakan!
-                </p> */}
+                </p>
                     <br />
                     <div className="hero-social-icon">   
                         <a href="https://www.facebook.com/profile.php?id=100063979907207" target='_blank'><i className="fab fa-facebook-f facebook-bg"></i></a>
